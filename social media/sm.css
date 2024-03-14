@@ -1,0 +1,228 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+  }
+
+  .t-logo img{
+    height: 50px;
+    width: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+ 
+  #home {
+    text-align: center;
+    background-image: url("./pexels-photo-905163.jpeg");
+    background-repeat:no-repeat ;
+    background-size:cover;
+    padding: 50px 0;
+  }
+  
+  #home h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    margin-top: 250px; 
+    color: #070707;
+  }
+  
+  #home p {
+    font-size: 1.2em;
+    color: #070707;
+    margin-bottom: 40px;
+  }
+  
+  /* Services Section Styles */
+  #services,
+  #portfolio,
+  #contact {
+    background-color: #fff;
+    padding: 50px 20px;
+    margin-top: 40px;
+  }
+  
+  #services h2,
+  #portfolio h2,
+  #contact h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  #services ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #services ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding: 0px 40%;
+  }
+  
+  .portfolio-item-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .portfolio-item {
+    margin: 30px;
+    border: 1px solid #ccc;
+    height: 300px;
+    width: 500px;
+    padding: 30px;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    height: 300px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .portfolio-item h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  .portfolio-item p {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Contact Section Styles */
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 105%;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    max-width: 100px;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-info {
+    text-align: right;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    #services ul li {
+      font-size: 1em;
+    }
+  
+    .portfolio-item {
+      flex: 0 0 calc(50% - 20px);
+    }
+  
+    .footer-content {
+      flex-direction: column;
+    }
+  
+    .footer-info {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  
